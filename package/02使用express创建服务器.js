@@ -6,7 +6,7 @@ sever.get('/user', (req,res)=>{
   res.send({name:'xz',age:30,gender:'男'})
 })
 
-sever.get('/userid/:id', (req,res)=>{
+sever.get('/userId/:id', (req,res)=>{
   console.log(req.params)
   res.send(req.params)
 })
