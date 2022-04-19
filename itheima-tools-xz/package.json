@@ -1,0 +1,8 @@
+{
+  "name": "itheima-tools-xz",
+  "version": "1.0.1",
+  "main": "index.js",
+  "description": "提供了格式化时间",
+  "keywords": ["dateFormat"],
+  "license": "ISC"
+}
