@@ -1,5 +1,6 @@
 ﻿const express = require('express')
 const app = express()
+app.use(express.urlencoded({extended: false}))
 // 导入路由模块
 const router= require('./router')
 //注册路由模块
